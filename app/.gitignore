@@ -1,0 +1,45 @@
+# -----------------------------------------------------------
+# OS / Editor / IDE
+# -----------------------------------------------------------
+*.log
+.DS_Store
+Thumbs.db
+/.idea
+/.vscode
+/.fleet
+/.zed
+
+# -----------------------------------------------------------
+# Environment / Config Files
+# -----------------------------------------------------------
+.env
+.env.backup
+.env.production
+auth.json
+
+# -----------------------------------------------------------
+# Laravel Default Ignore
+# -----------------------------------------------------------
+/vendor/
+/node_modules/
+/storage/*.key
+/storage/pail
+/public/hot
+/public/build
+/public/storage
+.phpactor.json
+.phpunit.result.cache
+.phpunit.cache
+Homestead.json
+Homestead.yaml
+
+# -----------------------------------------------------------
+# Docker Data
+# -----------------------------------------------------------
+docker/db-data/
+
+# -----------------------------------------------------------
+# SSL Certificates (but keep directory)
+# -----------------------------------------------------------
+certs/*
+!certs/.gitkeep

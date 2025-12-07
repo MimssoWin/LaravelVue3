@@ -1,0 +1,49 @@
+# ----------------------------------------
+# Node & PHP dependencies
+# ----------------------------------------
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ----------------------------------------
+# Laravel storage & compiled files
+# ----------------------------------------
+bootstrap/compiled.php
+app/storage/
+storage/*.key
+storage/logs/
+storage/framework/
+public/storage
+
+# Laravel Mix / Vite builds
+/public/build
+public/hot
+public_html/storage
+public_html/hot
+
+# ----------------------------------------
+# Environment files
+# ----------------------------------------
+.env
+.env.backup
+.env.production
+auth.json
+
+# ----------------------------------------
+# Dev / Local tools
+# ----------------------------------------
+.phpactor.json
+.phpunit.result.cache
+/.vagrant
+Homestead.yaml
+Homestead.json
+
+# ----------------------------------------
+# Docker volumes (DB data)
+# ----------------------------------------
+docker/db-data/
+
+# ----------------------------------------
+# SSL Certificates (민감하니까 파일 제외)
+/certs/*
