@@ -1,5 +1,6 @@
 import './bootstrap';
-import { createApp } from 'vue';
-import App from './components/App.vue';
+import { createApp } from 'vue'
+import NavMenu from './components/Menu.vue'
 
-createApp(App).mount('#app');
+// NavMenu 컴포넌트를 마운트
+createApp(NavMenu).mount('#nav-menu-root')
