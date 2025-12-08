@@ -31,7 +31,7 @@
     }
 </script>
 
-<style>
+<style scoped>
     .NavMenu{
         background: darkslateblue;
         padding : 15px;

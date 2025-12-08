@@ -3,6 +3,5 @@
 @section('title', 'Welcome')
 
 @section('content')
-    <h1>Welcome Page</h1>
-
+    <div id="home-products"></div>
 @endsection
