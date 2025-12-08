@@ -8,7 +8,7 @@
 <body>
     <div id="nav-menu-root"></div>
 
-    <main>
+    <main class="page-container">
         @yield('content')
     </main>
 </body>
