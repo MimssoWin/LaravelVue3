@@ -13,5 +13,5 @@ Route::get('/hello', function () {
     return ['message' => '안녕하세요! Laravel API 응답입니다.'];
 });
 
-Route::get('/menus', [MenuController::class, 'getMenuList']);
+Route::get('/v1/menus', [MenuController::class, 'getMenuList']);
 

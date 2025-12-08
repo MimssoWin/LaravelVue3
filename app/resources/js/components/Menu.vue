@@ -19,7 +19,7 @@
         },
         async mounted() {
             try {
-                const res = await axios.get('/api/menus')
+                const res = await axios.get('/api/v1/menus')
                 if (res.data.status === 'success') {
                     this.menuList = res.data.data
                 }
